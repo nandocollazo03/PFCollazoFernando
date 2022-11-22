@@ -1,0 +1,267 @@
+@charset "UTF-8";
+/* Variables*/
+/* Mixins*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Francois One", sans-serif;
+  color: #232829;
+}
+
+/* Encabezado de la página (logo y menú). */
+header ul li a:hover {
+  background: #fe8a71;
+  transition: 0.5s;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner_index figure img {
+  width: 1200px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0px 16px 14px -18px black;
+}
+
+.main_title {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 24px;
+  border-radius: 10px;
+  font-size: 45px;
+  text-align: center;
+  background: linear-gradient(to right, #f09819, #edde5d);
+  line-height: 70px;
+}
+
+
+.carousel h1 {
+  color: white;
+}
+
+/* Sección (RESEÑA). */
+.review {
+  margin-top: 25px;
+  padding: 25px;
+  border: #0e9aa7 solid 3px;
+  border-radius: 0px 10px;
+}
+
+.review article p {
+  text-align: justify;
+}
+
+.review article ul li {
+  margin-top: 15px;
+  background: url(../img/character.png) no-repeat left center;
+  padding: 0px 10px 0px 25px;
+  list-style: none;
+}
+
+/* Sección (CAPÍTULOS). */
+.chapters {
+  margin-top: 25px;
+  padding: 25px;
+  border: #0e9aa7 solid 3px;
+  border-radius: 0px 10px;
+}
+
+.chapters div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.chapters article p {
+  text-align: justify;
+  margin-right: 25px;
+}
+
+.chapters article figure img {
+  
+  box-shadow: 10px 10px 35px -26px darkgrey;
+  border-radius: 0px 5px 0px 5px;
+}
+
+.chapters article a {
+  text-align: center;
+  display: block;
+  margin-top: 25px;
+  color: white;
+  background: black;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+
+.chapters article a:hover {
+  box-shadow: 0 0 10px #3da4ab;
+}
+
+
+/* Sección (OPINIONES). */
+#opinions {
+  margin-top: 25px;
+  padding: 25px;
+  border: #0e9aa7 solid 3px;
+  border-radius: 0px 10px;
+}
+#opinions div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#opinions article {
+  width: 555px;
+  margin-top: 25px;
+}
+#opinions article figure img {
+  display: inline-block;
+}
+#opinions article:nth-of-type(1) {
+  background: url(../img/alan_brito.png) no-repeat left center;
+  padding: 5px 10px 0px 65px;
+}
+#opinions article:nth-of-type(2) {
+  background: url(../img/carlitos_tado.png) no-repeat left center;
+  padding: 5px 10px 0px 65px;
+}
+#opinions article:nth-of-type(3) {
+  background: url(../img/eddy_ficio.png) no-repeat left center;
+  padding: 5px 10px 0px 65px;
+}
+#opinions article:nth-of-type(4) {
+  background: url(../img/ines_esario.png) no-repeat left center;
+  padding: 5px 10px 0px 65px;
+}
+#opinions article:nth-of-type(5) {
+  background: url(../img/elsa_nitario.png) no-repeat left center;
+  padding: 5px 10px 0px 65px;
+}
+#opinions article:nth-of-type(6) {
+  background: url(../img/aldo_lorido.png) no-repeat left center;
+  padding: 5px 10px 0px 65px;
+}
+
+/* Pie de página. */
+footer {
+  margin-top: 25px;
+  background: black;
+  color: white;
+}
+
+footer h2, h3 {
+  padding-top: 15px;
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.card {
+  border: #0e9aa7 solid 1px;
+}
+
+.img-thumbnail {
+  border: #0e9aa7 solid 1px;
+}
+
+.your_opinion {
+  margin-top: 25px;
+  padding: 25px;
+  border: #0e9aa7 solid 3px;
+  border-radius: 0px 10px;
+}
+
+
+.datos {
+  text-align: justify;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+
+.mensaje {
+  text-align: justify;
+  margin-top: 25px;
+}
+
+input,
+label,
+select,
+textarea {
+ 
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+input,
+select {
+  margin-bottom: 30px;
+  padding: 6px 0;
+}
+
+textarea {
+  height: 205px;
+  
+  resize: none;
+  border: 1px solid black;
+}
+
+input[type=submit] {
+  border: 0;
+  background-color: #fe8a71;
+  border-radius: 5px;
+  padding: 10px;
+  width: 25%;
+  margin-top: 5px;
+  font-weight: 700;
+  color: white;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 0 10px #3da4ab;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 992px) {
+  .navbar-brand {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .review-character article {
+      display: none;
+  }
+}

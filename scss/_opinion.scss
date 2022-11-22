@@ -1,0 +1,67 @@
+#your_opinion {
+    margin-top: 25px;
+    padding: 25px;
+    display: grid;
+    border: #0e9aa7 solid 3px;
+    border-radius: 0px 10px;
+}
+
+.opinion_form {
+    display: flex;
+}
+
+.datos {
+    width: 563px;
+    text-align: justify;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+
+.mensaje {
+    width: 500px;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+input,
+label,
+select,
+textarea {
+    display: inline-block;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+input,
+select {
+    margin-bottom: 30px;
+    padding: 6px 0;
+}
+
+textarea {
+    height: 205px;
+    width: 545px;
+    resize: none;
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    border: 0;
+    background-color: #fe8a71;
+    border-radius: 5px;
+    padding: 10px;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 423px;
+    font-weight: 700;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 0 10px #3da4ab;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+<url>
+<loc>https://nandocollazo03.github.io/tercera_pre_entrega_de_proyecto_final/</loc>
+<lastmod>27-10-2022</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
+</url>
+
+<url>
+<loc>https://nandocollazo03.github.io/tercera_pre_entrega_de_proyecto_final/temporadas.html</loc>
+<lastmod>27-10-2022</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://nandocollazo03.github.io/tercera_pre_entrega_de_proyecto_final/personajes.html</loc>
+<lastmod>27-10-2022</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://nandocollazo03.github.io/tercera_pre_entrega_de_proyecto_final/galeria.html</loc>
+<lastmod>27-10-2022</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://nandocollazo03.github.io/tercera_pre_entrega_de_proyecto_final/opinion.html</loc>
+<lastmod>27-10-2022</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+</urlset>
